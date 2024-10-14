@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 350px;
+    overflow-x: hidden;
+    background-color: #2b2b2b;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    width: 74%;
+    font-size: 22px;
+}
+
+.media{
+    color: darkgray;
+}
+
+.song{
+    display: flex;
+    width: 35%;
+}
+
+.songMusic{
+    background-color: #333333;
+    padding: .6rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.apple{
+    background-color: #4d4d4d;
+    padding: .6rem;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.volume{
+    color: darkgray;
+}
+
+.login{
+display: flex;
+align-items: center;
+}
+
+.btn{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 15px !important;
+    color: white;
+    width: 160px;
+    background-color: #d60015;
+}
+
+@media (max-width: 1024px){
+    .media{
+        display: none;
+    }
+    .volume{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content:start;
+        padding-left: 50%;
+        overflow-x: hidden;
+        
+    }
+    .login{
+        display: none;
+        }
+}
+
+@media (max-width: 1260px){
+    
+    .container{
+        justify-content: start;
+    }
+
+}

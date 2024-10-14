@@ -1,0 +1,57 @@
+#root{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo{
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.navbar{
+    list-style-type: none;
+    
+}
+
+input{
+    padding: .2rem;
+    margin: .3rem;
+}
+
+.link{
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+    font-size: larger;
+    margin: .7rem;
+}
+
+.btn{
+    color: whitesmoke;
+    background-color: #ffffff00 !important;
+}
+
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    background-color: #252526;
+    width: 40%;
+    min-height: 400px;
+    max-width: 16rem;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+.btnContainer{
+    position: absolute;
+    width: 200%;
+    bottom: 4rem;
+    left: 1rem;
+    align-items: end;
+}

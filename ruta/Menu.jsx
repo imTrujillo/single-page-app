@@ -17,7 +17,7 @@ export default function Menu() {
     <header className={styles.container}>
       <nav>
       <form >
-      <img className={styles.logo} src='../src/assets/logo.png' />
+      <img className={styles.logo} src="../src/assets/logo.png" />
       <div><FaSearch /><input type="text"  placeholder='  Buscar'/></div>
       </form>
       <ul className={styles.navbar}>

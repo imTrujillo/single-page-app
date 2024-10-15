@@ -2,13 +2,13 @@ import React from 'react';
 import styles from '../styles/novedades.module.css';
 import { BsThreeDots } from "react-icons/bs";
 
-import r1 from '../assets/r1.png';
-import r2 from '../assets/r2.png';
-import r3 from '../assets/r3.png';
-import re1 from '../assets/re1.png';
-import re2 from '../assets/re2.png';
-import re3 from '../assets/re3.png';
-import re4 from '../assets/re4.png';
+import r1 from '../src/assets/r1.png';
+import r2 from '../src/assets/r2.png';
+import r3 from '../src/assets/r3.png';
+import re1 from '../src/assets/re1.png';
+import re2 from '../src/assets/re2.png';
+import re3 from '../src/assets/re3.png';
+import re4 from '../src/assets/re4.png';
 
 export default function Radio() {
   return (

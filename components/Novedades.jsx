@@ -3,18 +3,18 @@ import styles from '../styles/novedades.module.css';
 import { MdArrowForwardIos } from "react-icons/md";
 import { BsThreeDots } from "react-icons/bs";
 
-import n1 from '../assets/n1.png';
-import n2 from '../assets/n2.png';
-import n3 from '../assets/n3.png';
-import n4 from '../assets/n4.png';
-import nc1 from '../assets/nc1.png';
-import nc2 from '../assets/nc2.png';
-import nc3 from '../assets/nc3.png';
-import nc4 from '../assets/nc4.png';
-import nc5 from '../assets/nc5.png';
-import nc6 from '../assets/nc6.png';
-import nc7 from '../assets/nc7.png';
-import nc8 from '../assets/nc8.png';
+import n1 from '../src/assets/n1.png';
+import n2 from '../src/assets/n2.png';
+import n3 from '../src/assets/n3.png';
+import n4 from '../src/assets/n4.png';
+import nc1 from '../src/assets/nc1.png';
+import nc2 from '../src/assets/nc2.png';
+import nc3 from '../src/assets/nc3.png';
+import nc4 from '../src/assets/nc4.png';
+import nc5 from '../src/assets/nc5.png';
+import nc6 from '../src/assets/nc6.png';
+import nc7 from '../src/assets/nc7.png';
+import nc8 from '../src/assets/nc8.png';
 
 export default function Novedades() {
   return (

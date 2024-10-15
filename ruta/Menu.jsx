@@ -10,7 +10,7 @@ import { BsBroadcast } from "react-icons/bs";
 import { SiApplemusic } from "react-icons/si";
 import { GoArrowUpRight } from "react-icons/go";
 
-import logo from '../assets/logo.png';
+import logo from '../src/assets/logo.png';
 
 export default function Menu() {
   return (
